@@ -1,0 +1,134 @@
+html {
+  box-sizing: border-box;
+}
+
+
+span{
+  font-size: 46px;
+}
+
+h1 {
+  margin: 39px auto;
+  margin-top: 39px;
+  margin-right: auto;
+  margin-bottom: 39px;
+  margin-left: auto;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/564x/15/7f/c2/157fc26d83b9a23be4fd1a3153bd1441.jpg);
+  background-color: #fafafa;
+  box-shadow: 0px 0px 6px;
+  display: flex;
+  flex-flow: column;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: 700;
+  max-width: 70%;
+  margin: 5% auto;
+  width: 884.5px;
+  height: 418.5px;
+  padding-bottom: -8%;
+  padding-top: 0%;
+}
+
+input {
+  margin: 1% auto;
+  width: 30%;
+  padding: 2px;
+}
+
+#sideA {
+  box-shadow: 0px 0px 1em #6c6c6c;
+  padding-left: 8px;
+  margin-left: 89px;
+}
+
+#sideB {
+  box-shadow: 0px 0px 1em #6c6c6c;
+  margin-bottom: 4%;
+  padding-right: 0px;
+  padding-left: 7px;
+  margin-left: 93px;
+  width: 30%;
+  height: 16px;
+  padding-top: 5px;
+  margin-top: 1%;
+}
+
+
+#sideC {
+  font-size: xx-large;
+  flex: auto;
+  background-color: #eee;
+  box-shadow: 0px 0px 1em #6c6c6c;
+  margin-left: 71px;
+  width: 283.833px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 0em;
+  height: 0px;
+  border-right-width: 0px;
+  border-right-style: solid;
+  border-left-width: 2px;
+  border-left-style: solid;
+  padding-top: 2em;
+  border-radius: 26px;
+}
+
+button {
+  background-color: #21b5ff;
+  margin: 0 auto;
+  text-align: center;
+  border: none;
+  box-shadow: 0px 0px 1em #6c6c6c;
+  border-radius: 30px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  margin-left: 119px;
+  margin-top: 23px;
+  margin-left: 67px;
+  padding-bottom: 2.5%;
+  padding-top: 2.5%;
+  padding-left: 19%;
+  padding-right: 23%;
+}
+
+p {
+  font-size: large;
+  font-family: helvetica;
+  flex: 0 1 auto;
+}
+
+
+
+.divforimage {
+  background-image: url(https://i.pinimg.com/564x/bd/38/37/bd3837608f89348693959e4b19d5b689.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 52vh;
+  height: 91vh;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: -2px;
+  padding-right: 0px;
+  margin-top: -9px;
+}
+
+.divfortext {
+  background-image: url(https://i.pinimg.com/564x/15/7f/c2/157fc26d83b9a23be4fd1a3153bd1441.jpg);
+  float: right;
+  height: 100%;
+  width: 70%;
+  background-size: contain;
+  margin-top: -562px;
+  margin-left: -14px;
+  padding-left: 472px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  margin-right: -13px;
+  width: 72%;
+  height: 100%;
+  margin-bottom: -16px;
+}
