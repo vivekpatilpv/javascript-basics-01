@@ -4,48 +4,43 @@ body {
     background-image: url(https://i.pinimg.com/564x/50/8d/ac/508dac583787e8b0910814d61b873faf.jpg);
 }
 
-span{
+span {
     font-size: 44px;
 }
-h1{
+
+h1 {
     font-size: 24px;
 }
+
 .divforimg {
     background-image: url(https://i.pinimg.com/736x/95/02/71/950271c7270410e6e27d9b5f175482a6.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-  
+
     display: inline-block;
     margin-top: 103px;
     background-color: #fff;
 
-    
+
     width: 45vh;
     padding-bottom: 0px;
     margin-bottom: 0px;
     height: 80vh;
-border-radius: 15px;
+    border-radius: 15px;
 
-   
-
-padding-right: 0px;
-margin-right: 1px;
-margin-left: 38px;
-
-margin-top: 61px;
+    padding-right: 0px;
+    margin-right: 1px;
+    margin-left: 182px;
+    margin-top: 61px;
 }
 
 .divfortext {
-    
-   
     float: right;
     height: 100%;
-    width: 70%;
+    width: 30%;
     background-size: contain;
-
-
-
-
+    margin-right: 246px;
+    margin-top: 57px;
 }
 
 .button {
@@ -67,8 +62,7 @@ margin-top: 61px;
     background: rgb(15, 5, 158);
 }
 
-
-.cssele  {
+.cssele {
     width: 313px;
     height: 32px;
     padding-bottom: 5px;
@@ -78,7 +72,6 @@ margin-top: 61px;
     border-top-style: solid;
 }
 
-
 .label {
     color: #122f4c;
     font-weight: 600;
@@ -87,36 +80,45 @@ margin-top: 61px;
 }
 
 .card {
+    float: right;
     border-radius: .375rem;
 
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 3.25rem;
-   
+
     line-height: 24px;
     font-size: 14px;
-  
+
     padding-top: 0%;
     height: 472.784px;
-
-
+    margin-right: auto;
+    margin-left: auto;
 
     height: 445.784px;
-width: 312.166px;
-padding-top: 6%;
-padding-bottom: 4%;
-padding-left: 6%;
-padding-right: 7%;
-margin-top: 45px;
-margin-left: 236px;
-margin-bottom: 0px;
+    width: 312.166px;
+    padding-top: 6%;
+    padding-bottom: 4%;
+    padding-left: 6%;
+    padding-right: 7%;
+    /* margin-top: 45px; */
+    /* margin-left: 236px; */
+    margin-bottom: 0px;
+
+    /* From https://css.glass */
+    background: rgba(229, 185, 185, 0.37);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
+    border: 1px solid rgba(229, 185, 185, 1);
 }
 
 .form-group {
     margin-bottom: 1rem;
 }
 
-#result  {
+#result {
     width: 313px;
     height: 32px;
     padding-bottom: 5px;
